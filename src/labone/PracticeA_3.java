@@ -3,7 +3,7 @@ package labone;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Practice1_3 {
+public class PracticeA_3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
