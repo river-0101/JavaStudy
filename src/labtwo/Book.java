@@ -2,7 +2,7 @@ package labtwo;
 
 public class Book {
 	private String title, author;
-	int price, count;
+	int price, number;
 
     public Book(String title) {
         this.title=title;
@@ -14,11 +14,11 @@ public class Book {
         this.author=author;
     }
     
-    public Book(String title,String author,int price,int count) {
+    public Book(String title,String author,int price,int number) {
     	this.title=title;
         this.author=author;
         this.price=price;
-        this.count=count;
+        this.number=number;
 	}
     
     public String extractTitle() {
@@ -26,7 +26,7 @@ public class Book {
     }
     
     public int sumPrice() {
-    	return price*count;
+    	return price*number;
     }
         
     public void showBookInfosimple() {
@@ -34,7 +34,7 @@ public class Book {
     }
     
     public void showBookInfo() {
-        System.out.println(title + ", " + author+", "+price +"원, "+count+"권");
+        System.out.println(title + ", " + author+", "+price +"원, "+number+"권");
     }
    
 }
